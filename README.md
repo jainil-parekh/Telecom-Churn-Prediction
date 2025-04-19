@@ -61,7 +61,7 @@ This project applies machine learning to predict whether a telecom customer is l
 git clone https://github.com/jainil-parekh/Telecom-Churn-Prediction.git
 cd Telecom-Churn-Prediction
 
-2. Create a Virtual Environment (Recommended)
+### 2. Create a Virtual Environment (Recommended)
 
 python -m venv venv
 # On macOS/Linux:
@@ -69,15 +69,15 @@ source venv/bin/activate
 # On Windows:
 venv\Scripts\activate
 
-3. Install Dependencies
+### 3. Install Dependencies
 
 pip install -r requirements.txt
 
-4. Run the Jupyter Notebook
+### 4. Run the Jupyter Notebook
 
 jupyter notebook notebooks/telco_churn_analysis.ipynb
 
-🔮 Make Predictions Using the Trained Model
+### 🔮 Make Predictions Using the Trained Model
 
 import joblib
 
@@ -87,7 +87,7 @@ model = joblib.load('models/telco_churn_model.pkl')
 # Make predictions
 predictions = model.predict(new_data)
 
-🌐 Streamlit App (Coming Soon...)
+### 🌐 Streamlit App (Coming Soon...)
 
 A user-friendly web interface will be available for live predictions via Streamlit.
 
